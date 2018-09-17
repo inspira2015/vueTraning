@@ -75,8 +75,8 @@
   <button v-on:click="increase(3)">Click me</button>
   <p>{{ counter }}</p>
   <p v-on:mousemove="updateCoordinates">
-    Coordinates; {{ x }} / {{ y }} -
-    <span v-on:mousemove="dummy">DEAD SPOT</span>
+    Coordinates: {{ x }} / {{ y }} -
+    <span v-on:mousemove.stop>DEAD SPOT</span>
   </p>
   <input v-on:keyup.space.enter="alertMe" type="text">
 </div>
@@ -100,9 +100,6 @@
       alertMe: function() {
         alert('AlertMe');
       },
-      dummy: function(event) {
-        event.stopPropagation();
-      }
     }
   });
 </script>
