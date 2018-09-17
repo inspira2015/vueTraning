@@ -11,10 +11,10 @@
 <body>
 
 <div id="app">
-  <button v-on:click="increase">Increase</button>
-  <button v-on:click="decrease">Decrease</button>
+  <button v-on:click="counter++">Increase</button>
+  <button v-on:click="counter--">Decrease</button>
   <p>{{ counter }}</p>
-  <p>{{ result }}</p>
+  <p>{{ result() }}</p>
 </div>
 
 <script type="text/javascript">
@@ -22,17 +22,12 @@
     el: '#app',
     data: {
       counter: 0,
-      result: ''
+     // result: ''  // cannot be this.counter > 5 ? 'Greather than 5' : 'Smaller than 5'
     },
     methods: {
-      increase: function() {
-        this.counter ++;
-        this.result = this.counter > 5 ? 'Greater 5' : 'Smaller 5'
-      },
-      decrease: function() {
-        this.counter --;
-        this.result = this.counter > 5 ? 'Greater 5' : 'Smaller 5'
-      },
+      result() {
+        return this.counter > 5 ? 'Greather than 5' : 'Smaller than 5'
+      }
     }
   });
 </script>
