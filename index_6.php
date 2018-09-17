@@ -33,6 +33,14 @@
         return this.counter > 5 ? 'Greather than 5' : 'Smaller than 5'
       }
     },
+    watch: {
+      counter: function(value) {
+        var vm = this;
+        setTimeout(function() {
+          vm.counter = 0;
+        }, 2000);
+      }
+    },
     methods: {
       result() {
         console.log('Method');
