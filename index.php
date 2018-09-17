@@ -25,7 +25,7 @@
 			</ul>
 		</li>
 		<li>
-			<a href="index_3.php">Js Events</a>
+			<a href="index_4.php">Two Ways-Binding</a>
 		</li>
 	</ul>
 
