@@ -11,7 +11,7 @@
 <body>
 
 <div id="app">
-  <input type="text">
+  <input type="text" v-model="name">
   <p>{{ name }}</p>
 </div>
 
