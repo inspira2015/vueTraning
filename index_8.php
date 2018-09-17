@@ -15,12 +15,21 @@
         display: inline-block;
         margin: 10px;
       }
+      .red {
+        background-color: red;
+      }
+      .green {
+        background-color: green;
+      }
+      .blue {
+        background-color: blue;
+      }
     </style>
 </head>
 <body>
 
 <div id="app">
-  <div class="demo"></div>
+  <div class="demo" @click="attachRed = !attachRed" :class="{red: attachRed}"></div>
   <div class="demo"></div>
   <div class="demo"></div>
 </div>
@@ -28,6 +37,9 @@
 <script type="text/javascript">
   new Vue({
     el: '#app',
+    data : {
+      attachRed: false,
+    }
   });
 </script>
 
