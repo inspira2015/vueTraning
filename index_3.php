@@ -99,6 +99,9 @@
       },
       alertMe: function() {
         alert('AlertMe');
+      },
+      dummy: function(event) {
+        event.stopPropagation();
       }
     }
   });
