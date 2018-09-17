@@ -27,6 +27,9 @@
 		<li>
 			<a href="index_4.php">Two Ways-Binding</a>
 		</li>
+		<li>
+			<a href="index_5.php">Reacting to Changes with Computed Properties</a>
+		</li>
 	</ul>
 
 
