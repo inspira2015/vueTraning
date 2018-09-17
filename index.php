@@ -36,6 +36,10 @@
 		<li>
 			<a href="index_7.php">Shorthands</a>
 		</li>
+
+		<li>
+			<a href="Exercise_3.php">Excercise 3</a>
+		</li>
 	</ul>
 
 
