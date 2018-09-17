@@ -14,6 +14,14 @@
 			<a href="index_2.php">Methods</a>
 		</li>
 		<li>
+			<a href="index_3.php">Js Events Modifiers</a>
+			<ul>
+				<li>
+					<a href="https://vuejs.org/v2/guide/events.html#Key-Modifiers">Key Modifiers</a>
+				</li>
+			</ul>
+		</li>
+		<li>
 			<a href="index_3.php">Js Events</a>
 		</li>
 	</ul>
