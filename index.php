@@ -19,6 +19,9 @@
 				<li>
 					<a href="https://vuejs.org/v2/guide/events.html#Key-Modifiers">Key Modifiers</a>
 				</li>
+				<li>
+					<a href="exercise.php">Practice</a>
+				</li>
 			</ul>
 		</li>
 		<li>
