@@ -33,6 +33,9 @@
 		<li>
 			<a href="index_6.php">An Alternative to Computed Properties</a>
 		</li>
+		<li>
+			<a href="index_7.php">Shorthands</a>
+		</li>
 	</ul>
 
 
