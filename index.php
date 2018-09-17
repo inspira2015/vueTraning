@@ -30,6 +30,9 @@
 		<li>
 			<a href="index_5.php">Reacting to Changes with Computed Properties</a>
 		</li>
+		<li>
+			<a href="index_6.php">An Alternative to Computed Properties</a>
+		</li>
 	</ul>
 
 
