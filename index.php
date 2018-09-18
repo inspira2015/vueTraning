@@ -68,6 +68,9 @@
 		<li>
 			<a href="m_3_index_14.php">Rendering List with v-for</a>
 		</li>
+		<li>
+			<a href="m_3_index_15.php">Getting Current Index</a>
+		</li>
 	</ul>
 
 </body>
