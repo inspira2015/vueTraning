@@ -28,6 +28,11 @@
   width: 100px;
   height: 50px;
 }
+.progress-bar {
+  width: 200px;
+  height: 20px;
+  border: 1px solid black;
+}
 </style>
 
 
@@ -57,8 +62,8 @@
   </div>
   <!-- 6) Create a simple progress bar with setInterval and style bindings. Start it by hitting the below button. -->
   <div>
-  <!--  <button v-on:click="startProgress">Start Progress</button> -->
-    <div></div>
+    <button v-on:click="startProgress">Start Progress</button>
+    <div v-bind:class="['progress-bar']" v-bind:style="progressBar"></div>
   </div>
 </div>
 
@@ -79,6 +84,10 @@
                 height:          '150px',
                 backgroundColor: 'gray',
             },
+            progressBar: {
+                width: '0px',
+                backgroundColor: 'red',
+            }
         },
         methods: {
             startEffect: function() {
@@ -88,6 +97,14 @@
                     vm.effectClasses.shrink = !vm.effectClasses.shrink;
                 }, 1000);
             },
+            startProgress: function () {
+                var vm = this;
+                var width = 0;
+                setInterval(function() {
+                    width = width +10;
+                    vm.progressBar.width = width + 'px';
+                }, 500);
+            }
         }
     });
 
