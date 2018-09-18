@@ -46,9 +46,9 @@
   </div>
   <!-- 4) Let the user enter a class and enter true/ false for another class (create some example classes) and attach the classes -->
   <div>
-    <input type="text">
-    <input type="text">
-    <div></div>
+    <input type="text" v-model="userClass">
+    <input type="text" v-model="isVisible">
+    <div v-bind:class="[{visible: isVisible}, userClass]"></div>
   </div>
   <!-- 5) Repeat 3) but now with values for styles (instead of class names). Attach the respective styles.  -->
   <div>
@@ -73,6 +73,7 @@
             },
             float: 'float',
             userClass: '',
+            isVisible: true,
         },
         methods: {
             startEffect: function() {
