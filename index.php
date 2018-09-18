@@ -45,6 +45,9 @@
 		<li>
 			<a href="index_9.php">Setting Styles Dynamically</a>
 		</li>
+		<li>
+			<a href="index_10.php">Styling Elements with Array Syntax</a>
+		</li>
 	</ul>
 </body>
 </html>
