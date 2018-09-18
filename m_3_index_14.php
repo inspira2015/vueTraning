@@ -11,7 +11,9 @@
 <body>
 
 <div id="app">
-
+  <ul>
+    <li v-for="ingredient in ingredients">{{ ingredient }}</li>
+  </ul>
 </div>
 
 <script type="text/javascript">
