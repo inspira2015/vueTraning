@@ -48,6 +48,9 @@
 		<li>
 			<a href="index_10.php">Styling Elements with Array Syntax</a>
 		</li>
+		<li>
+			<a href="Exercise_4.php">Exercise 4</a>
+		</li>
 	</ul>
 </body>
 </html>
