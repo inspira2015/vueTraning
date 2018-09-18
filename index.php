@@ -59,6 +59,9 @@
 		<li>
 			<a href="m_3_index_11.php">Conditional Rendering with v-if</a>
 		</li>
+		<li>
+			<a href="m_3_index_12.php">Using an Alternative v-if (template)</a>
+		</li>
 	</ul>
 
 </body>
