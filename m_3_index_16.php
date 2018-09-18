@@ -16,7 +16,9 @@
   </ul>
   <hr>
     <ul>
-      <li v-for="person in persons">{{ person.name }}</li>
+      <li v-for="person in persons">
+        <div v-for="(value, key, index) in person">{{key}}: {{ value }} ({{ index }})</div>
+      </li>
     </ul>
   <hr>
   <template v-for="(ingredient, index) in ingredients">
