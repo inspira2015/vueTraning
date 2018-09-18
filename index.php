@@ -65,6 +65,9 @@
 		<li>
 			<a href="m_3_index_13.php">Do not detach v-show</a>
 		</li>
+		<li>
+			<a href="m_3_index_14.php">Rendering List with v-for</a>
+		</li>
 	</ul>
 
 </body>
