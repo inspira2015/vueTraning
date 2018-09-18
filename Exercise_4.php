@@ -15,6 +15,19 @@
   background-color: gray;
   width: 50px !important;
 }
+.blue {
+  background-color: blue;
+}
+.float {
+  float: right;
+}
+.text-color {
+  color: yellow;
+}
+.visible {
+  width: 100px;
+  height: 50px;
+}
 </style>
 
 
@@ -25,11 +38,11 @@
     <div id="effect" v-bind:class="effectClasses"></div>
   </div>
   <!-- 2) Create a couple of CSS classes and attach them via the array syntax -->
-  <div>I got no class :(</div>
+  <div v-bind:class="['float', 'blue', 'text-color']">I got no class :(</div>
   <!-- 3) Let the user enter a class (create some example classes) and attach it -->
   <div>
-    <input type="text">
-    <div></div>
+    <input type="text" v-model="userClass">
+    <div v-bind:class="[{visible: true}, userClass]"></div>
   </div>
   <!-- 4) Let the user enter a class and enter true/ false for another class (create some example classes) and attach the classes -->
   <div>
@@ -58,6 +71,8 @@
                 highlight: false,
                 shrink: true
             },
+            float: 'float',
+            userClass: '',
         },
         methods: {
             startEffect: function() {
@@ -66,7 +81,7 @@
                     vm.effectClasses.highlight = !vm.effectClasses.highlight;
                     vm.effectClasses.shrink = !vm.effectClasses.shrink;
                 }, 1000);
-            }
+            },
         }
     });
 
