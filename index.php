@@ -62,6 +62,9 @@
 		<li>
 			<a href="m_3_index_12.php">Using an Alternative v-if (template)</a>
 		</li>
+		<li>
+			<a href="m_3_index_13.php">Do not detach v-show</a>
+		</li>
 	</ul>
 
 </body>
