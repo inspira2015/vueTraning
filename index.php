@@ -71,6 +71,9 @@
 		<li>
 			<a href="m_3_index_15.php">Getting Current Index</a>
 		</li>
+		<li>
+			<a href="m_3_index_16.php">Looping through Objects</a>
+		</li>
 	</ul>
 
 </body>
