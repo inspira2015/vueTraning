@@ -52,8 +52,8 @@
   </div>
   <!-- 5) Repeat 3) but now with values for styles (instead of class names). Attach the respective styles.  -->
   <div>
-    <input type="text">
-    <div></div>
+    <input type="text" v-model="myStyle.backgroundColor">
+    <div v-bind:style="myStyle"></div>
   </div>
   <!-- 6) Create a simple progress bar with setInterval and style bindings. Start it by hitting the below button. -->
   <div>
@@ -74,6 +74,11 @@
             float: 'float',
             userClass: '',
             isVisible: true,
+            myStyle: {
+                width:           '100px',
+                height:          '150px',
+                backgroundColor: 'gray',
+            },
         },
         methods: {
             startEffect: function() {
