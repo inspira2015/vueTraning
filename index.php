@@ -42,7 +42,9 @@
 		<li>
 			<a href="index_8.php">Dynamic Styling Css</a>
 		</li>
-
+		<li>
+			<a href="index_9.php">Setting Styles Dynamically</a>
+		</li>
 	</ul>
 </body>
 </html>
