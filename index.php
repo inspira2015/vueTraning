@@ -52,5 +52,14 @@
 			<a href="Exercise_4.php">Exercise 4</a>
 		</li>
 	</ul>
+
+	<h2>Module 3</h2>
+
+	<ul>
+		<li>
+			<a href="m_3_index_11.php">Conditional Rendering with v-if</a>
+		</li>
+	</ul>
+
 </body>
 </html>
