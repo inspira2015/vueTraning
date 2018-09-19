@@ -40,6 +40,13 @@
 				npm run dev
 			</p>
 		</li>
+		<li>
+			<p>
+				Adding Vue Template Syntax Highlight for Subline
+			</p>
+			<a href="https://github.com/vuejs/vue-syntax-highlight">Vue Syntax Highlight
+</a>
+		</li>
 	</ul>
 </body>
 </html>
