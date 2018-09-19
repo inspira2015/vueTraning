@@ -92,5 +92,12 @@
 		</li>
 	</ul>
 
+	<h2>Module 7</h2>
+
+	<ul>
+		<li>
+			<a href="m_7_index_91.php">Components Example</a>
+		</li>
+	</ul>
 </body>
 </html>
