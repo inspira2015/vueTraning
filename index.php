@@ -84,5 +84,13 @@
 		</li>
 	</ul>
 
+	<h2>Module 6</h2>
+
+	<ul>
+		<li>
+			<a href="installing_vue_cli.php">Installing Vue-Cli</a>
+		</li>
+	</ul>
+
 </body>
 </html>
