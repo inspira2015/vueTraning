@@ -2,6 +2,8 @@
     <div class="component">
         <h1>The User Component</h1>
         <p>I'm an awesome User!</p>
+        <p>User Age: {{ age }}</p>
+
         <button @click="changeName">Change my Name</button>
         <hr>
         <div class="row">
