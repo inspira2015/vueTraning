@@ -8,10 +8,13 @@
             <div class="col-xs-12 col-sm-6">
                 <app-user-detail :name="name" 
                                  @nameWasReset="name = $event"
-                                 :resetFn="resetName"></app-user-detail>
+                                 :resetFn="resetName"
+                                 :userAge="age"></app-user-detail>
             </div>
             <div class="col-xs-12 col-sm-6">
-                <app-user-edit></app-user-edit>
+                <app-user-edit 
+                                :userAge="age"
+                                @ageWasEdited="age = $event"></app-user-edit>
             </div>
         </div>
     </div>
@@ -24,7 +27,8 @@
     export default {
         data: function() {
             return {
-                name: 'Daniel'
+                name: 'Daniel',
+                age:39
             };
         },
         methods: {
