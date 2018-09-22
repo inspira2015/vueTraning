@@ -17,12 +17,14 @@
 		components: {
 			data: function() {
 				return {
-					quote: ''
+					quote: '',
 				};
 			}
 		},
 		methods: {
 			createNew() {
+								this.quote = '';
+
 				this.$emit('quoteAdded', this.quote);
 				this.quote = '';
 			}
@@ -31,5 +33,5 @@
 </script>
 
 <style>
-	
+
 </style>
