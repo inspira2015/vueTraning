@@ -18,8 +18,6 @@ Vue.directive('highlight', {
 				el.style.color = binding.value;
 			}
 		}, delay);
-
-
 	}
 });
 
