@@ -24,6 +24,10 @@ export default {
 					hash: '#data'
 				}
 		}
+	},
+	beforeRouteEnter(to, from, next) {
+		console.log('user Edit');
+		next();
 	}
 }
 </script>
