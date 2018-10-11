@@ -10,7 +10,7 @@
                 <br>
                 <app-another-counter></app-another-counter>
                 <hr>
-                <input type="text" class="type" v-model="value">
+                <input type="text" class="type" :value="value" @input="updateValue">
                 <p>{{ value }}</p>
             </div>
         </div>
@@ -27,6 +27,11 @@
         computed: {
             value() {
                 return this.$store.getters.value;
+            }
+        },
+        methods: {
+            updateValue(event) {
+                this.$store.dispatch('updateValue', event.target.value);
             }
         },
         components: {
